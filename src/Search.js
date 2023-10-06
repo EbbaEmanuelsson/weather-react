@@ -31,7 +31,7 @@ export default function Search() {
   return (
     <div className="App">
       <h1>
-        {city}, {temperature.description}
+        {city} {temperature.description}
       </h1>
       <form id="search-form" className="Search" onSubmit={handleSubmit}>
         <div className="row">
