@@ -1,38 +1,79 @@
-.App {
+.row {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search {
+  margin: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu {
+  line-height: 6;
+  border: 2px solid transparent;
+  margin: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu:hover {
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.explanations {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.day {
+  font-size: 22px;
+}
+
+.wind-time-temp {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.weather-app {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 45px;
+  margin: 20px auto;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.foot-note {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.units {
+  position: relative;
+}
+
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/156/original/h%C3%A4rligtv%C3%A4der.jpg?1683066415);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+}
+
+p {
+  line-height: normal;
+  margin-top: 28px;
 }

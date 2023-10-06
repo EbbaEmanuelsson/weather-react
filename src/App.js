@@ -1,17 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-import Weather from './Weather';
+import Search from "./Search";
+import Footer from "./Footer";
+
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+  crossorigin="anonymous"
+/>;
+
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Weather city="oslo"/>
+        <Search/>
+        <Footer/>
       </header>
     </div>
   );
